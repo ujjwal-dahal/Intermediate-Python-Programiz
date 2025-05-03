@@ -15,7 +15,7 @@ A function that calls itself is known as a recursive function. And, this process
 
 
 def factorial_calculation(n):
-  if n==0 | n==1:
+  if n==0 or n==1:
     return 1
   
   else:
